@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:gravity="center_horizontal" 
+        android:layout_marginBottom="20dp">
+
+		<ImageView
+		    android:id="@+id/imageBear"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/bear" 
+		    android:background="@drawable/image_bg"/>
+		<ImageView
+		    android:id="@+id/imageCat"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/cat" 
+		    android:background="@drawable/image_bg"
+		    android:layout_marginRight="15dp"
+		    android:layout_marginLeft="15dp"/>
+
+		<ImageView
+		    android:id="@+id/imageChiken"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/chiken" 
+		    android:background="@drawable/image_bg"/>
+	    
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp">
+
+		<ImageView
+		    android:id="@+id/imageCow"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/cow" 
+		    android:background="@drawable/image_bg"/>
+
+		<ImageView
+		    android:id="@+id/imageDog"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/dog" 
+		    android:background="@drawable/image_bg"
+		    android:layout_marginRight="15dp"
+		    android:layout_marginLeft="15dp"/>
+
+		<ImageView
+		    android:id="@+id/imageFox"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/fox" 
+		    android:background="@drawable/image_bg"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:gravity="center_horizontal" 
+	    android:layout_marginBottom="20dp">
+
+	    <ImageView
+	        android:id="@+id/imagePig"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/pig" 
+	        android:background="@drawable/image_bg"/>
+
+	    <ImageView
+	        android:id="@+id/imageRabbit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/rabbit" 
+	        android:background="@drawable/image_bg"
+	        android:layout_marginRight="15dp"
+	        android:layout_marginLeft="15dp"/>
+
+	    <ImageView
+	        android:id="@+id/imageSheep"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/sheep" 
+	        android:background="@drawable/image_bg"/>
+	</LinearLayout>
+
+</LinearLayout>
